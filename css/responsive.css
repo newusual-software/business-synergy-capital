@@ -1,13 +1,12 @@
-  @media screen and (max-width: 768px) {
-      nav {
+@media screen and (max-width: 768px) {
+  nav {
     padding: 1rem !important;
   }
-.navbar-toggler-icon{
-    color: #fff ;
+  .navbar-toggler-icon {
+    color: #fff;
     background-color: #fff !important;
-
-}
-.navbar-toggler{
+  }
+  .navbar-toggler {
     background-color: #fff !important;
     color: #fff !important;
     border: none !important;
@@ -15,87 +14,117 @@
     position: absolute;
     top: 2rem;
     right: 2rem;
-}
+  }
   .nav-items {
     flex-direction: column;
     gap: 1rem;
   }
-      .centered-nav {
-        display: block;
-      }
-
-      .mobileBtn {
-        display: block;
-        text-align: center;
-        margin-top: 10px;
-      }
-
-      .pcBtn {
-        display: none;
-      }
-  .headerContent > h1 {
-  font-size: 2rem;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-  width: 90%;
-  text-align: center;
-}
-.headerContent h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  width: 80%;
-  text-align: center;
-  font-size: 20px;
-}
-
-    .sectionOne {
-      margin: 2rem 0;
-      padding-bottom: 4rem;
-    }
-
-    .sectionOne div h1 {
-      font-size: 2rem;
-      padding: 2rem 0;
-    }
-
-    .gridContainer {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 0 1rem;
-    }
-
-    .gridContainer .crd {
-      padding-right: 0;
-    }
-
-    .sectionOne div .titleContact {
-      width: 80%;
-      font-size: 2rem;
-      padding: 1rem 0;
-    }
-
-    .sectionOne div .paraContact {
-      width: 80%;
-      font-size: 16px;
-      line-height: 1.8rem;
-    }
-
-    .contactBtn {
-      padding: 1rem 1.5rem;
-    }
-    footer {
-      grid-template-columns: repeat(1, 1fr);
-      padding: 2rem;
-      justify-content: center;
-      align-items: center;
-    }
-
-    footer div p {
-      padding-top: 0.5rem;
-      line-height: 1.2rem;
-    }
-
-    footer div .title {
-      font-size: 1.2rem;
-      padding: 0.5rem 0;
-    }
+  .centered-nav {
+    display: block;
   }
+
+  .mobileBtn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .pcBtn {
+    display: none;
+  }
+  .headerContent > h1 {
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+  }
+  .headerContent h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .sectionOne {
+    margin: 2rem 0;
+    padding-bottom: 4rem;
+  }
+
+  .sectionOne div h1 {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 1rem;
+  }
+
+  .gridContainer .crd {
+    padding-right: 0;
+  }
+
+  .sectionOne div .titleContact {
+    width: 80%;
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+
+  .sectionOne div .paraContact {
+    width: 80%;
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+
+  .contactBtn {
+    padding: 1rem 1.5rem;
+  }
+  .contact {
+    padding: 2rem .4rem; /* Adjust padding for mobile */
+  }
+
+  .contact h2 {
+    font-size: 3rem; /* Adjust font size for mobile */
+  }
+
+  .contact__email {
+    flex-direction: column; /* Stack email info vertically on mobile */
+    gap: 1rem; /* Adjust gap for mobile */
+  }
+
+  .contact__email div span {
+    padding-left: 0; /* Remove padding for mobile */
+    font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+
+  .contact__email div i {
+    font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+
+  .text-secondary {
+    font-size: 1rem; /* Adjust font size for mobile */
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer div p {
+    padding-top: 0.5rem;
+    line-height: 1.2rem;
+  }
+
+  footer div .title {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+}
