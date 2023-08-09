@@ -2,18 +2,37 @@
       nav {
     padding: 1rem !important;
   }
+.navbar-toggler-icon{
+    color: #fff ;
+    background-color: #fff !important;
 
+}
+.navbar-toggler{
+    background-color: #fff !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
   .nav-items {
     flex-direction: column;
     gap: 1rem;
   }
+      .centered-nav {
+        display: block;
+      }
 
-  .mobileBtn {
-    display: block;
-  }
-  .pcBtn {
-    display: none;
-  }
+      .mobileBtn {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .pcBtn {
+        display: none;
+      }
   .headerContent > h1 {
   font-size: 2rem;
   font-family: 'Merriweather', serif;
