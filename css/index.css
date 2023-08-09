@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 header {
@@ -14,67 +14,49 @@ header {
   background-repeat: no-repeat;
   background: linear-gradient(
       to right,
-      rgba(17, 17, 17, 0.7),
-      rgba(17, 17, 17, 0.7)
+      rgba(17, 17, 17, 0.6),
+      rgba(17, 17, 17, 0.6)
     ),
     url("../img/homeImg.jpg") center top;
   background-size: cover;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem !important;
   width: 100%;
   border-bottom: 1px solid #b1adad;
   color: #fff;
 }
+.navis{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+.centered-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .nav-items {
   display: flex;
   gap: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  text-transform: capitalize;
+ 
 }
 
 .nav-items > div {
   position: relative; /* To make sure dropdown position is relative to each item */
 }
-.nav-items div a {
-  color: #fff;
-}
-.dropdown a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.dropdownIcon {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding-left: 5px;
-}
-.dropdown-content {
-  color: #000;
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: max-content; /* Adjust the width as needed */
+.nav-link {
+  color: #fff !important;
+   text-transform: capitalize !important; 
 }
 
-.nav-items > div:hover .dropdown-content {
-  display: flex;
-  flex-direction: column;
-}
-.nav-items > div:hover .dropdown-content a {
-  color: #000;
-}
+
 .applyBtn {
   background: transparent;
   border: 2px solid white;
@@ -93,7 +75,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 90%;
   width: 100%;
   gap: 1rem;
   color: #fff;
@@ -101,7 +83,9 @@ nav {
 }
 .headerContent > h1 {
   font-size: 3rem;
-  width: 50%;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  width: 55%;
   text-align: center;
   color: #fff;
 }
@@ -110,25 +94,29 @@ nav {
   font-weight: bold;
   width: 50%;
   text-align: center;
+  font-size: 20px;
 }
 .btn {
-  margin-top: 1.5rem;
-  background: #fff;
-  text-transform: uppercase;
-  padding: 0.8rem 1.5rem;
-  font-weight: 500;
-  letter-spacing: 2px;
-  border-radius: 5px;
-  color: #000;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  margin-top: 1.5rem !important;
+  background: #fff !important;
+  text-transform: uppercase !important;
+  padding: 0.8rem 1.5rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px !important;
+  border-radius: 5px !important;
+  color: #000 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  border: none !important;
+  outline: none !important;
+  cursor: pointer !important;
 }
 .btn:hover {
-  background: transparent;
-  border: 2px solid white;
-  color: #fff;
+  background: transparent !important;
+  border: 2px solid white !important;
+  color: #fff !important;
+}
+.mobileBtn{
+    display: none;
 }
 
 .sectionOne {
@@ -146,6 +134,8 @@ nav {
   color: #222;
   font-size: 3rem;
   padding: 4rem 0;
+    font-family: 'Merriweather', serif;
+
 }
 .gridContainer {
   width: 100%;
@@ -153,26 +143,26 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   padding: 0 5rem;
 }
-.gridContainer .card {
+.gridContainer .crd {
   padding-right: 3rem;
 }
-.card .num {
+.crd .num {
   color: #0906b3;
   padding: 2rem 0;
   font-weight: bold;
 }
-.card .title {
+.crd .title {
   padding-bottom: 1rem;
   color: #222;
   font-size: 1.5rem;
 }
-.card .para {
+.crd .para {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #757575;
   font-size: 1rem;
   padding-right: 0.5rem;
 }
-.gridContainer .card:hover {
+.gridContainer .crd:hover {
   border-top: 1px solid #0906b3;
 }
 
