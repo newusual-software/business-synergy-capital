@@ -8,84 +8,168 @@
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="navis">
-          <div>
-            <a class="navbar-brand" href="./index.html">
-              <img src="./img/logo.png" alt="" id="logo-img" />
-            </a>
-          </div>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Site Logo" />
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">Loan Program <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="./sba-usda-loans.html">SBA & USDA Loans</a></li>
+              <li>
+                <a href="./revenue-based-loan-programs.html"
+                  >Revenue Based Small Dollar Loan Programs</a
+                >
+              </li>
+              <li>
+                <a href="./unsecured-lines-of-credit.html"
+                  >Business Unsecured Lines of Credit</a
+                >
+              </li>
+              <li>
+                <a href="./accounts-receivable-factoring.html"
+                  >Accounts Receivable Factoring</a
+                >
+              </li>
+              <li>
+                <a href="./asset-based-lending.html"
+                  >ABL (Asset Based Lending for Working Capital LOC)</a
+                >
+              </li>
+              <li>
+                <a href="./purchase-order-financing.html"
+                  >Purchase Order Financing</a
+                >
+              </li>
+              <li><a href="./leasing.html">Leasing</a></li>
+              <li>
+                <a href="./transitional-financing.html"
+                  >Transitional Loan Financing for Businesses</a
+                >
+              </li>
+              <li>
+                <a href="./startup-leasing.html">Startup Leasing Program</a>
+              </li>
+              <li>
+                <a href="./conventional-business-loan.html"
+                  >Conventional Business Loan Program</a
+                >
+              </li>
+              <li>
+                <a href="./fha-hud-loans.html"
+                  >FHA-HUD (221 d4 / 223 f / 223 a7 / 232)</a
+                >
+              </li>
+              <li><a href="./fannie-may-loans.html">Fannie May</a></li>
+              <li><a href="./conduit-cmbs.html">Conduit (CMBS)</a></li>
+              <li><a href="./freddie-mac-loans.html">Freddie Mac</a></li>
+              <li>
+                <a href="./ctl-loans.html">CTL (Credit Tenant Lease/NNN)</a>
+              </li>
+              <li>
+                <a href="./bridge-loans-nationwide.html"
+                  >Bridge Loans Nationwide</a
+                >
+              </li>
+              <li>
+                <a href="./small-balance-bridge-loans.html"
+                  >Small Balance Bridge Loans Nationwide</a
+                >
+              </li>
+              <li>
+                <a href="./stated-loan-program.html">Stated Loan Program</a>
+              </li>
+              <li><a href="./land-loans.html">Land Loans</a></li>
+              <li>
+                <a href="./sfr-acquisition-credit.html"
+                  >SFR Acquisition Credit Program</a
+                >
+              </li>
+              <li>
+                <a href="./transitional-borrower.html"
+                  >Transitional Borrower Program</a
+                >
+              </li>
+              <li>
+                <a href="./sfr-landlord-financing.html"
+                  >SFR Landlord Financing Program</a
+                >
+              </li>
+              <li>
+                <a href="./agricultural-advisory-services.html"
+                  >Agricultural Advisory Services</a
+                >
+              </li>
+              <li>
+                <a href="./franchise-loan-program.html"
+                  >Conventional Franchise Loan Program</a
+                >
+              </li>
+              <li>
+                <a href="./consumer-finance-program.html"
+                  >Consumer Finance Program for Merchants</a
+                >
+              </li>
+              <li>
+                <a href="./business-payment-solutions.html"
+                  >Business Payment Solutions</a
+                >
+              </li>
+              <li>
+                <a href="./leverage-line.html">Leverage Line (Stock Loan)</a>
+              </li>
+              <li>
+                <a href="./non-profit-financing.html"
+                  >Non-Profit Financing Program</a
+                >
+              </li>
+              <li>
+                <a href="./consumer-leasing-program.html"
+                  >Consumer Leasing Program for Merchants</a
+                >
+              </li>
+              <li>
+                <a href="./car-dealership-program.html"
+                  >Car Dealership Program</a
+                >
+              </li>
+              <li>
+                <a href="./agricultural-loans-real-estate.html"
+                  >Agricultural Loans - Real Estate</a
+                >
+              </li>
+              <li>
+                <a href="./agricultural-loans-operating-equipment.html"
+                  >Agricultural Loans - Operating & Equipment</a
+                >
+              </li>
+              <li>
+                <a href="./agricultural-investor-loan.html"
+                  >Agricultural Investor Loan Program</a
+                >
+              </li>
+              <li>
+                <a href="./agribusiness-loan-program.html"
+                  >Agricultural Agribusiness Loan Program</a
+                >
+              </li>
+            </ul>
+          </li>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="centered-nav">
-              <!-- New centered-nav div -->
-              <ul class="navbar-nav" id="nav-items">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html"
-                    >home</a
-                  >
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./about.html">About Us</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >loan programs</a
-                  >
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="mailto:godsfavour1975@gmail.com"
-                        >Email</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="tel:+23409033886421"
-                        >Tel no</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mobileBtn">
-              <button class="applyBtn">Apply now</button>
-            </div>
-          </div>
-          <div class="pcBtn">
-            <button class="applyBtn">Apply now</button>
-          </div>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div>
+          <button class="applyBtn">Apply Now</button>
         </div>
       </nav>
 
