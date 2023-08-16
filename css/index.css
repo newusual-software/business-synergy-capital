@@ -20,40 +20,7 @@ header {
     url("../img/homeImg.jpg") center top;
   background-size: cover;
 }
-/* 
-nav {
 
-}
-.navis{
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  width: 100% !important;
-}
-.centered-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.nav-items {
-  display: flex;
-  gap: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
- 
-}
-
-.nav-items > div {
-  position: relative; /* To make sure dropdown position is relative to each item 
-}
-.nav-link {
-  color: #fff !important;
-   text-transform: capitalize !important; 
-}
-
-*/
 .applyBtn {
   background: transparent;
   border: 2px solid white;
