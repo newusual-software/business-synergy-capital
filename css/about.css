@@ -75,6 +75,7 @@ nav {
   z-index: 999;
 }
 .headerContent > h1 {
+  padding-top: .5rem;
   font-size: 3rem;
   font-family: 'Merriweather', serif;
   font-weight: bold;
