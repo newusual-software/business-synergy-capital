@@ -28,12 +28,15 @@
         color: #fff;
       }
       main {
-        max-width: 800px;
+        max-width: 900px;
         margin: 2rem auto;
         padding: 2rem;
         background-color: #fff;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: start;
       }
       h1 {
         color: #004080;
@@ -43,6 +46,7 @@
         color: #004080;
         margin-top: 1.5rem;
       }
+
       strong {
         color: #000;
       }
@@ -149,6 +153,10 @@
       }
       .dropdown-menu > li > a {
         margin-top: 2rem;
+      }
+      .purpose {
+        padding: 0.5rem 0;
+        color: red !important;
       }
     </style>
   </head>
