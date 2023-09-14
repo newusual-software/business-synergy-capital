@@ -17,7 +17,7 @@ header {
       rgba(17, 17, 17, 0.6),
       rgba(17, 17, 17, 0.6)
     ),
-    url("../img/homeImg.jpg") center top;
+    url("../img/bg-img.jpg") center top;
   background-size: cover;
 }
 
