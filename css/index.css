@@ -102,7 +102,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 85%;
   width: 100%;
   gap: 1rem;
   color: #fff;
@@ -112,7 +112,7 @@ header {
   font-size: 3rem;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  width: 55%;
+  width: 60%;
   text-align: center;
   color: #fff;
 }
