@@ -30,7 +30,7 @@
 }
 
   .headerContent > h1 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: "Merriweather", serif;
     font-weight: bold;
     width: 90%;
@@ -142,6 +142,7 @@
   display: flex;
   gap: 10px;
   font-size: 15px;
+  
 }
 
 .applyBtn {
