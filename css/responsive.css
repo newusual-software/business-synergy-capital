@@ -126,102 +126,96 @@
   }
 }
 
-@media (max-width: 624px) {
+@media (max-width: 650px) {
   .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  padding: 1rem !important;
+  padding: 0.8rem !important;
   width: 100%;
-  border-bottom: 1px solid #b1adad;
+  border-bottom: 0px solid #b1adad;
   color: #fff;
 }
 .menu {
+  display: none;
+}
+.mobile-nav{
   list-style: none;
   display: flex;
-  gap: 10px;
-  font-size: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  border-bottom: 1px solid #b1adad;
+}
+.mobile-nav li {
+  position: relative;
+}
+.mobile-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  text-decoration: none;
+  color: #fff;
+}
+.mobile-nav a i {
+  margin-left: 5px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  list-style: none;
+  width: 15rem;
+  height: 25rem;
+  overflow-y: auto;
+  padding: 10px 0;
+  top: 100%;
+  left: 0;
 }
 
-.applyBtn {
-  border: 2px solid white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 13px;
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu > li{
+  padding: .5rem 0;
+  border-bottom: 2px solid #fff;
+  padding-left: .5rem;
+}
+.dropdown-menu > li > a {
+  margin-top: 2rem;
+  
+}
 
+.logo img {
+  width: 40px;
+  height: 40px;
+} 
+.applyBtn {
+  font-size: 12px;
+  padding: 0.5rem 0.9rem
+}
+}
+
+@media (max-width: 350px) {
+  .mobile-nav li {
+  font-size: 15px;
+}
+.applyBtn {
+  font-size: 13px;
+}
+}
+@media (max-width: 320px) {
+.mobile-nav{
+  padding: 0.8rem; 
+}
+.mobile-nav li {
+  font-size: 10px;
+}
+.applyBtn {
+  padding: 0.5rem 0.9rem
 }
 .logo img {
   width: 35px;
   height: 35px;
-}
-}
-
-
-@media (max-width: 500px) {
-  
-.menu {
-  gap: 7px;
-  font-size: 13px;
-}
-
-.applyBtn {
-  font-size: 10px;
-
-}
-.logo img {
-  width: 28px;
-  height: 28px;
-}
-}
-
-@media (max-width: 400px) {
- 
-.menu {
-  gap: 5px;
-  font-size: 10px;
-}
-
-.applyBtn {
-  padding: 3px 5px ;
-  font-size: 8px;
-
-}
-.logo img {
-  width: 25px;
-  height: 25px;
-}
-}
-
-@media (max-width: 315px) {
- 
-.menu {
-  gap: 2px;
-  font-size: 9px;
-}
-
-.applyBtn {
-  font-size: 8px;
-
-}
-.logo img {
-  width: 20px;
-  height: 20px;
-}
-}
-@media (max-width: 283px) {
- 
-.menu {
-  gap: 2px;
-  font-size: 8px;
-}
-
-.applyBtn {
-  font-size: 6px;
-
-}
-.logo img {
-  width: 17px;
-  height: 17px;
 }
 }
