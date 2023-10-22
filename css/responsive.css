@@ -150,6 +150,7 @@
 }
 .mobile-nav li {
   position: relative;
+  font-size: 20px;
 }
 .mobile-nav a {
   font-family: "Roboto", sans-serif;
@@ -195,10 +196,14 @@
   padding: 0.5rem 0.9rem
 }
 }
-
+@media (max-width: 414px) {
+   .mobile-nav li {
+  font-size: 17px;
+}
+}
 @media (max-width: 350px) {
   .mobile-nav li {
-  font-size: 15px;
+  font-size: 16px;
 }
 .applyBtn {
   font-size: 13px;
@@ -209,7 +214,7 @@
   padding: 0.8rem; 
 }
 .mobile-nav li {
-  font-size: 10px;
+  font-size: 12px;
 }
 .applyBtn {
   padding: 0.5rem 0.9rem
